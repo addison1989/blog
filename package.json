@@ -10,7 +10,9 @@
     "ejs": "*",
 	 "mongodb": "*",
 	 "connect-mongo": "*",
-	 "connect-flash": "*"
+	 "connect-flash": "*",
+	 "markdown":"*"
+
 
   }
 }

@@ -34,7 +34,7 @@ app.use(express.session({
     db: settings.db
   })
 }));
-
+app.use(express.bodyParser({ keepExtensions: true, uploadDir: './public/images' }));
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
